@@ -1,0 +1,40 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.main {
+    display: grid;
+    grid-template-areas: 
+        "header header header" 
+        "sidebar content content"
+        "footer footer footer";
+    grid-gap:10px;
+}
+
+.h {
+    grid-area: header;
+    min-height: 500px;
+    background-color: mediumturquoise;
+}
+
+.c {
+    grid-area: content;
+    min-height: 500px;
+    background-color: aquamarine;
+}
+
+.s {
+    grid-area: sidebar;
+    min-height: 500px;
+    background-color: aliceblue;
+}
+
+.f {
+    grid-area: footer;
+    min-height: 500px;
+    background-color:darkblue;
+}
+
+
+
